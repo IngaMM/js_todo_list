@@ -1,0 +1,95 @@
+nav ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.navItem {
+  display: inline;
+  padding-left: 30px;
+}
+
+.navItem:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form {
+  padding-left: 40px;
+  width: 450px;
+  position: relative;
+}
+
+.formContainer {
+  margin-bottom: 10px;
+}
+
+#title, #description {
+  position: absolute;
+  width: 300px;
+  right: 10px;
+}
+
+#dueDate {
+  position: absolute;
+  right: 182px;
+}
+
+#priority {
+  position: absolute;
+  right: 243px;
+}
+
+#project {
+  position: absolute;
+  right: 229px;
+}
+
+
+.showAllTodos, .hideAllTodos, .deleteProject, .showTodoDetails, .deleteTodo, .editTodo {
+  padding-left: 10px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.todoList {
+  margin-top: 5px;
+}
+
+.todoTitle {
+  padding-left: 10px;
+}
+
+.todoDueDate {
+  padding-left: 10px;
+}
+
+.projectContainer {
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+#todoContainer {
+  padding-left: 40px;
+}
+
+#actionLinks {
+  padding-left: 30px;
+}
+
+.todoDetail {
+  margin-bottom: 20px;
+}
+
+.todoDetailHeader {
+  font-weight: bold;
+}
+
+.invisible {
+  display: none;
+}
